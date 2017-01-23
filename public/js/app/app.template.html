@@ -10,7 +10,7 @@
 <section id="2" >
     <div class="content">
         <h1>Dash 1</h1>
-        <img class="responsive-img wow fadeIn hoverable z-depth-4" src="img/dash/1.png">
+        <img class="responsive-img wow fadeIn hoverable" src="img/dash/1.png">
     </div>
 
 
@@ -19,56 +19,53 @@
 <section id="3">
     <div class="content">
         <h1>Dash 2</h1>
-        <img class="responsive-img wow fadeIn hoverable z-depth-4" src="img/dash/2.png">
+        <img class="responsive-img wow fadeIn hoverable" src="img/dash/2.png">
     </div>
 </section>
 
 <section id="4" class="z-depth-2">
     <div class="content">
         <h1>Dash 3</h1>
-        <img class="responsive-img wow fadeIn hoverable z-depth-4" src="img/dash/3.png">
+        <img class="responsive-img wow fadeIn hoverable" src="img/dash/3.png">
     </div>
 </section>
 
 <section id="5">
+    <div class="row s6 wow fadeIn" id="centraliza-relativo">
+        <form class="" id="form-dash" (ngSubmit)="onAddMessage()" #form="ngForm">
+            <p>O que achou dos nossos novos dashboards?</p>
+            <p>
+                <input name="group1" type="radio" id="gostei"/>
+                <label for="gostei">Gostei.</label>
 
-    <a class="waves-effect waves-light btn" href="#modal1">Comentar</a>
+                <input name="group1" type="radio" id="nao-gostei"/>
+                <label for="nao-gostei">Não gostei.</label>
+            </p>
 
-    <div id="modal1" class="modal">
-        <div class="modal-content">
-            <form class="" id="form-dash" (ngSubmit)="onAddMessage()" #form="ngForm">
-                <p>O que achou dos nossos novos dashboards?</p>
-                <p>
-                    <input name="group1" type="radio" id="gostei"/>
-                    <label for="gostei">Gostei.</label>
-
-                    <input name="group1" type="radio" id="nao-gostei"/>
-                    <label for="nao-gostei">Não gostei.</label>
-                </p>
-
-                <div class="row">
-                    <div class="input-field">
-                        <input name="nome" id="nome" type="text" class="validate" [(ngModel)]="nome" required>
-                        <label for="nome">Nome</label>
-                    </div>
-
-                    <!--<div class="input-field col s6">-->
-                        <!--<input id="email" type="email" class="validate">-->
-                        <!--<label for="email" data-error="Email inválido" data-success="Certo">Email</label>-->
-                    <!--</div>-->
+            <div class="row">
+                <div class="input-field">
+                    <input name="nome" id="nome" type="text" class="validate" [(ngModel)]="nome" required>
+                    <label for="nome">Nome</label>
                 </div>
-                <div class="row">
-                    <div class="input-field">
-                        <input name="comentario" id="comentario" type="text" class="validate" [(ngModel)]="comentario" required>
-                        <label for="comentario" >Comentário</label>
-                    </div>
-                </div>
-            </form>
 
-        </div>
-        <div class="modal-footer">
+                <!--<div class="input-field col s6">-->
+                    <!--<input id="email" type="email" class="validate">-->
+                    <!--<label for="email" data-error="Email inválido" data-success="Certo">Email</label>-->
+                <!--</div>-->
+            </div>
+            <div class="row">
+                <div class="input-field">
+                    <input name="comentario" id="comentario" type="text" class="validate" [(ngModel)]="comentario" required>
+                    <label for="comentario" >Comentário</label>
+                </div>
+            </div>
             <button type="submit"  class="btn btn-primary hoverable"> Enviar mensagem </button>
-        </div>
+
+        </form>
+        <!--<div class="col s6">-->
+            <!--<h1>Obrigado por fazer parte de nossa evolução</h1>-->
+            <!--<a href="#" class="brand-logo"><img class="responsive-img z-depth-4" src="img/logo-quadrado.png" alt=""></a>-->
+        <!--</div>-->
     </div>
 </section>
 

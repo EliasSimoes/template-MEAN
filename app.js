@@ -13,8 +13,8 @@ var appRoutes = require('./routes/app');
 
 // connection
 var app = express();
-// mongoose.connect('localhost:27017/mensagem');
-mongoose.connect('mongodb://flashcourier:123qweasdzxc@ds127429.mlab.com:27429/heroku_rnbt71zx');
+mongoose.connect('localhost:27017/mensagem');
+//mongoose.connect('mongodb://flashcourier:123qweasdzxc@ds127429.mlab.com:27429/heroku_rnbt71zx');
 
 
 app.use(session({secret: 'anystringoftext',
