@@ -1,0 +1,104 @@
+<section class="intro" id="1">
+    <div class="content">
+        <h1>A flash é você quem faz!</h1>
+        <p>
+            Você já definiu a nossa nova imagem quando nos ajudou a escolher a nova logo.
+            Agora é hora de você desenhar o dashboards principal do nosso BI - as informações que vc vai ver diariamente dá nossa operação</p>
+    </div>
+</section>
+
+<section id="2" >
+    <div class="content">
+        <h1>Dash 1</h1>
+        <img class="responsive-img wow fadeIn" src="img/dash/1.png">
+    </div>
+
+
+</section>
+
+<section id="3">
+    <div class="content">
+        <h1>Dash 2</h1>
+        <img class="responsive-img wow fadeIn" src="img/dash/2.png">
+    </div>
+</section>
+
+<section id="4" class="z-depth-2">
+    <div class="content">
+        <h1>Dash 3</h1>
+        <img class="responsive-img wow fadeIn" src="img/dash/3.png">
+    </div>
+</section>
+
+<section id="5">
+    <div class="row s6 wow fadeIn" id="centraliza-relativo">
+        <form class="" id="form-dash" (ngSubmit)="onAddMessage()">
+            <p>O que achou dos nossos novos dashboards?</p>
+            <p>
+                <input name="group1" type="radio" id="gostei"/>
+                <label for="gostei">Gostei.</label>
+
+                <input name="group1" type="radio" id="nao-gostei"/>
+                <label for="nao-gostei">Não gostei.</label>
+            </p>
+
+            <div class="row">
+                <div class="input-field">
+                    <input name="nome" id="nome" type="text" class="validate" name="nome" required>
+                    <label for="nome">Nome</label>
+                </div>
+
+                <!--<div class="input-field col s6">-->
+                    <!--<input id="email" type="email" class="validate">-->
+                    <!--<label for="email" data-error="Email inválido" data-success="Certo">Email</label>-->
+                <!--</div>-->
+            </div>
+            <div class="row">
+                <div class="input-field">
+                    <textarea name="comentario" id="comentario" class="materialize-textarea" name="comentario" required>
+
+                    </textarea>
+                    <label for="comentario" >Comentário</label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary"> Enviar mensagem </button>
+
+        </form>
+        <!--<div class="col s6">-->
+            <!--<h1>Obrigado por fazer parte de nossa evolução</h1>-->
+            <!--<a href="#" class="brand-logo"><img class="responsive-img z-depth-4" src="img/logo-quadrado.png" alt=""></a>-->
+        <!--</div>-->
+    </div>
+</section>
+
+
+<section id="6">
+    <div class="row">
+        <h1>Obrigado por fazer parte da nossa evolução.</h1>
+        <hr>
+        <div class="col s12 m8 offset-m2 l6 offset-l3 wow fadeIn ">
+            <div class="card-panel grey lighten-5 z-depth-1 hoverable" *ngFor="let message of messages">
+                <div class="row valign-wrapper cent-coment ">
+                    <div class="col s2 ">
+                        <img src="img/man-talking.png" alt="" class="responsive-img">
+                        <p class="flow-text">{{message.gostei}}</p>
+                    </div>
+                    <div class="col s10">
+                      <span class="black-text">
+                          <h6 class="blue-text text-darken-2">{{message.nome}}</h6>
+
+                          <p class="blue-text text-darken-2">{{ message.comentario }}</p>
+                          <!--<a (click)="onDelete()">Delete</a>-->
+                      </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="rodape">
+    Desenvolvido por <a href="http://www.flashcourier.com.br">Flash Courier 2017</a>
+</footer>
+
+

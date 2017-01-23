@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="/login">
+    <title>FeedBack FlashCoutier</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">-->
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <!-- 1. Load libraries -->
+    <!-- Polyfill(s) for older browsers -->
+    <script src="js/vendor/es6-shim/es6-shim.min.js"></script>
+
+    <script src="js/vendor/zone.js/dist/zone.js"></script>
+    <script src="js/vendor/reflect-metadata/Reflect.js"></script>
+    <script src="js/vendor/systemjs/dist/system.src.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+</head>
+<body>
+
+<section>
+
+        <div class="col s12 m7 valign-wrapper" id="caixa-login">
+           <div class="card horizontal hoverable">
+               <div class="card-image">
+                   <img src="img/logo-quadrado.png" alt="" class="ajuste-img-login">
+                   <span class="card-title">Teste</span>
+               </div>
+               <div class="card-stacked">
+                   <div class="card-content">
+                       <h1 class="grey-text text-darken-2 center-align">Flash Courier </h1>
+
+                       <p class="grey-text text-darken-2 left-align">Entrar com</p>
+                   </div>
+                   <div class="card-action">
+                       <!-- <a href="/login" class="btn btn-default"><span class="fa fa-user"></span> Local Login</a> -->
+                       <!-- <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span> Local Signup</a> -->
+                       <a href="/auth/facebook" class="btn btn-primary"><span class="fa fa-facebook"></span> Facebook</a>
+                   </div>
+               </div>
+           </div>
+        </div>
+
+</section>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+<script>
+    System.import('app').catch(function(err){ console.error(err);  });
+</script>
+</body>
+</html>
