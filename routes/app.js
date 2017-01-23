@@ -46,38 +46,38 @@ router.post('/message', function (req, res, next) {
     });
 });
 
-//editar
-router.get('/message/:id', function (req, res) {
-    Message.findById(req.params.id, function (err, message) {
-       if(err){
-           return res.status(500).json({
-              title: 'Ocorreu algum erro',
-              error: err
-           });
-       }
-
-       if(!message){
-           return res.status(500).json({
-              title: 'Nenhum comentário encontrado',
-              error: {message: 'Nenhum comentário encontrado'}
-           });
-       }
-
-       message.comentario = req.body.comentario;
-       message.remove(function (err, result) {
-           if(err){
-               return res.status(500).json({
-                   title: 'Ocorreu algum erro',
-                   error: err
-               });
-           }
-           res.status(200).json({
-                title: 'Comentário deletado!',
-                obj: result
-           });
-       })
-    });
-});
+// //editar
+// router.get('/message/:id', function (req, res) {
+//     Message.findById(req.params.id, function (err, message) {
+//        if(err){
+//            return res.status(500).json({
+//               title: 'Ocorreu algum erro',
+//               error: err
+//            });
+//        }
+//
+//        if(!message){
+//            return res.status(500).json({
+//               title: 'Nenhum comentário encontrado',
+//               error: {message: 'Nenhum comentário encontrado'}
+//            });
+//        }
+//
+//        message.comentario = req.body.comentario;
+//        message.remove(function (err, result) {
+//            if(err){
+//                return res.status(500).json({
+//                    title: 'Ocorreu algum erro',
+//                    error: err
+//                });
+//            }
+//            res.status(200).json({
+//                 title: 'Comentário deletado!',
+//                 obj: result
+//            });
+//        })
+//     });
+// });
 
 // module.exports = function(app, passport) {
 //
