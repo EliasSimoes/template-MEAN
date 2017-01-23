@@ -13,13 +13,15 @@ var appRoutes = require('./routes/app');
 
 // connection
 var app = express();
-mongoose.connect('localhost:27017/mensagem');
-//mongoose.connect('mongodb://flashcourier:123qweasdzxc@ds127429.mlab.com:27429/heroku_rnbt71zx');
-
+//mongoose.connect('localhost:27017/mensagem');
+mongoose.connect('adminflash:123qweasdzxc@ds061246.mlab.com:61246/flashcourier');
+//mongoose.connect('mongodb://criistiiano:the5car@ds127429.mlab.com:27429/fugaz');
+//mongoose.connect('mongodb://flash:flash123@177.154.146.105:27017/mensagem');
 
 app.use(session({secret: 'anystringoftext',
     saveUninitialized: true,
     resave: true}));
+
 app.use(passport.initialize());
 app.use(passport.session()); // persistent login sessions
 app.use(flash());
