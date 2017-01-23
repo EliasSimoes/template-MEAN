@@ -1,0 +1,8 @@
+node_modules
+.idea
+coverage
+dist
+typings
+npm-debug.log
+db.json
+listing.md
