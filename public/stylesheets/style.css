@@ -167,7 +167,7 @@ color: #ffffff !important;
   transform: translateX(-50%) translateY(-50%);
 }
 
-#centraliza-relativo{
+.centraliza-relativo{
   position: absolute;
   top: 50%;
   left: 50%;

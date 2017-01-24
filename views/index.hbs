@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>FlashCoutier</title>
-    <link rel="icon" href="public/img/favicon.ico">
+    <link rel="icon" href="./public/img/favicon.ico">
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">-->
     <link rel='stylesheet' href='/stylesheets/materialize.min.css'>
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">-->
@@ -12,6 +12,9 @@
 
     <!-- 1. Load libraries -->
     <!-- Polyfill(s) for older browsers -->
+
+
+
     <script src="js/vendor/es6-shim/es6-shim.min.js"></script>
 
     <script src="js/vendor/zone.js/dist/zone.js"></script>
@@ -20,6 +23,9 @@
 
     <!-- 2. Configure SystemJS -->
     <script src="systemjs.config.js"></script>
+
+
+
 </head>
 <body>
 
@@ -32,7 +38,7 @@
                 <li class="hoverable"><a href="/#2">Dashboard 1</a></li>
                 <li class="hoverable"><a href="/#3">Dashboard 2</a></li>
                 <li class="hoverable"><a href="/#4">Dashboard 3</a></li>
-                <li class="hoverable"><a href="/#5">O que achou?</a></li>
+                <li class="hoverable"><a href="/#5">Alguma sugestão?</a></li>
                 <li class="hoverable"><a href="/#6">Comentários</a></li>
             </ul>
         </div>
@@ -42,20 +48,26 @@
 <my-app>Loading...</my-app>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<!-- Compiled and minified JavaScript -->
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>-->
-<script src="js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+<!--<scrip src="js/jquery.min.js"></scrip>-->
+<!--<scrip src="js/wow.js"></scrip>-->
+
+
+
+
+
 
 <script>
-    new WOW().init();
-
     $(document).ready(function(){
         // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
         $('.modal').modal();
+        $('.collapsible').collapsible();
+
+        new WOW().init();
     });
+
 </script>
 
 <script>

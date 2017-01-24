@@ -2,10 +2,146 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d880fc59-946c-42b1-9d3d-5ea4e5a38337" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/materialize.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/user.js" afterPath="$PROJECT_DIR$/models/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/app.component.ts" afterPath="$PROJECT_DIR$/assets/app/app.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/app.template.html" afterPath="$PROJECT_DIR$/assets/app/app.template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/app.component.js" afterPath="$PROJECT_DIR$/public/js/app/app.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/app.template.html" afterPath="$PROJECT_DIR$/public/js/app/app.template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/boot.js" afterPath="$PROJECT_DIR$/public/js/app/boot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/message.model.js" afterPath="$PROJECT_DIR$/public/js/app/message.model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/message.service.js" afterPath="$PROJECT_DIR$/public/js/app/message.service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/bundles/forms.umd.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/bundles/forms.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/bundles/forms.umd.min.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/bundles/forms.umd.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/index.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/index.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/index.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/package.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/abstract_control_directive.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/abstract_control_directive.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/abstract_control_directive.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/abstract_control_directive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/abstract_control_directive.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/abstract_control_directive.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/abstract_form_group_directive.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/abstract_form_group_directive.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/abstract_form_group_directive.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/abstract_form_group_directive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/abstract_form_group_directive.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/abstract_form_group_directive.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/checkbox_value_accessor.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/checkbox_value_accessor.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/checkbox_value_accessor.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/checkbox_value_accessor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/checkbox_value_accessor.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/checkbox_value_accessor.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/checkbox_value_accessor.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/checkbox_value_accessor.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/control_container.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/control_container.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/control_container.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/control_container.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/control_container.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/control_container.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/control_value_accessor.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/control_value_accessor.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/control_value_accessor.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/control_value_accessor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/control_value_accessor.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/control_value_accessor.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/control_value_accessor.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/control_value_accessor.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/default_value_accessor.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/default_value_accessor.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/default_value_accessor.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/default_value_accessor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/default_value_accessor.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/default_value_accessor.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/default_value_accessor.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/default_value_accessor.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/form_interface.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/form_interface.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/form_interface.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/form_interface.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/form_interface.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/form_interface.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_control.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_control.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_control.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_control.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_control.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_control.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_control_status.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_control_status.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_control_status.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_control_status.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_control_status.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_control_status.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_control_status.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_control_status.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_form.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_form.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_form.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_form.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_form.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_form.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_form.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_model.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_model.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_model.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_model.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_model.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_model.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_model.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_model_group.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_model_group.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_model_group.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_model_group.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_model_group.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_model_group.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_model_group.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/ng_model_group.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/normalize_validator.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/normalize_validator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/normalize_validator.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/normalize_validator.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/number_value_accessor.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/number_value_accessor.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/number_value_accessor.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/number_value_accessor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/number_value_accessor.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/number_value_accessor.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/number_value_accessor.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/number_value_accessor.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/radio_control_value_accessor.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/radio_control_value_accessor.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/radio_control_value_accessor.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/radio_control_value_accessor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/radio_control_value_accessor.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/radio_control_value_accessor.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/radio_control_value_accessor.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/radio_control_value_accessor.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_control_directive.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_control_directive.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_control_directive.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_control_directive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_control_directive.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_control_directive.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_control_directive.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_control_directive.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_control_name.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_control_name.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_control_name.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_control_name.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_control_name.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_control_name.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_control_name.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_control_name.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_group_directive.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_group_directive.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_group_directive.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_group_directive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_group_directive.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_group_directive.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_group_directive.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_group_directive.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_group_name.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_group_name.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_group_name.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_group_name.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_group_name.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_group_name.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_group_name.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/reactive_directives/form_group_name.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/select_control_value_accessor.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/select_control_value_accessor.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/select_control_value_accessor.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/select_control_value_accessor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/select_control_value_accessor.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/select_control_value_accessor.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/select_control_value_accessor.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/select_control_value_accessor.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/select_multiple_control_value_accessor.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/select_multiple_control_value_accessor.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/select_multiple_control_value_accessor.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/select_multiple_control_value_accessor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/select_multiple_control_value_accessor.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/select_multiple_control_value_accessor.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/select_multiple_control_value_accessor.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/select_multiple_control_value_accessor.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/shared.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/shared.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/shared.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/shared.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/shared.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/shared.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/shared.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/shared.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/validators.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/validators.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/validators.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/validators.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/validators.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/validators.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/validators.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/directives/validators.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/async.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/async.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/async.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/async.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/async.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/async.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/collection.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/collection.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/collection.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/collection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/collection.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/collection.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/collection.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/collection.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/lang.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/lang.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/lang.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/lang.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/lang.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/lang.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/lang.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/facade/lang.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/form_builder.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/form_builder.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/form_builder.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/form_builder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/form_builder.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/form_builder.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/form_builder.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/form_builder.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/form_providers.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/form_providers.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/form_providers.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/form_providers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/form_providers.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/form_providers.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/form_providers.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/form_providers.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/forms.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/forms.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/forms.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/forms.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/forms.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/forms.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/model.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/model.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/model.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/model.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/model.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/model.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/model.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/validators.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/validators.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/validators.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/validators.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/validators.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/validators.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/validators.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/forms/src/validators.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/app.js" afterPath="$PROJECT_DIR$/routes/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="$PROJECT_DIR$/views/index.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/login.hbs" afterPath="$PROJECT_DIR$/views/login.hbs" />
     </list>
     <ignored path="unificado-dash.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,73 +174,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/app.js">
+      <file leaf-file-name="login.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/login.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+            <state relative-caret-position="-255">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/login.component.ts">
+      <file leaf-file-name="index.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="54" column="35" selection-start-line="53" selection-start-column="4" selection-end-line="54" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message.model.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/message.model.ts">
+      <file leaf-file-name="app.template.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/app/app.template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="161">
+              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="www" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/www">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-165">
-              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="message.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/message.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="51" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="3" selection-end-line="28" selection-end-column="55" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="45">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -113,21 +217,11 @@
       <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+            <state relative-caret-position="-308">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="message.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/message.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -151,24 +245,27 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config/auth.js" />
-        <option value="$PROJECT_DIR$/views/login.hbs" />
         <option value="$PROJECT_DIR$/models/message.js" />
         <option value="$PROJECT_DIR$/app/routes.js" />
-        <option value="$PROJECT_DIR$/assets/app/app.template.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/public/js/validacao.js" />
         <option value="$PROJECT_DIR$/assets/app/boot.ts" />
         <option value="$PROJECT_DIR$/app/models/user.js" />
-        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
-        <option value="$PROJECT_DIR$/assets/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/views/index.hbs" />
-        <option value="$PROJECT_DIR$/public/js/app/app.template.html" />
         <option value="$PROJECT_DIR$/assets/app/message.model.ts" />
         <option value="$PROJECT_DIR$/assets/app/message.service.ts" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/models/user.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/public/js/app/app.component.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/public/js/teste.js" />
+        <option value="$PROJECT_DIR$/public/js/vendor/systemjs/index.js" />
+        <option value="$PROJECT_DIR$/assets/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/assets/app/app.template.html" />
+        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/app.js" />
+        <option value="$PROJECT_DIR$/views/login.hbs" />
+        <option value="$PROJECT_DIR$/views/index.hbs" />
+        <option value="$PROJECT_DIR$/public/js/app/app.template.html" />
       </list>
     </option>
   </component>
@@ -271,6 +368,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unificado-dash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unificado-dash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -285,7 +396,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unificado-dash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unificado-dash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,10 +447,13 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="SearchEverywhereHistoryKey" value="favicon&#9;null&#9;null&#10;fav&#9;null&#9;null&#10;.ico&#9;null&#9;null&#10;ico&#9;FILE&#9;file:///github/unificado-dash/public/img/favicon.ico" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///github/unificado-dash/public/js/teste.js&#10;path&#9;ACTION&#9;FindInPath&#10;favicon&#9;null&#9;null&#10;fav&#9;null&#9;null&#10;.ico&#9;null&#9;null&#10;ico&#9;FILE&#9;file:///github/unificado-dash/public/img/favicon.ico" />
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
     </key>
@@ -440,7 +572,9 @@
       <workItem from="1485164890035" duration="9215000" />
       <workItem from="1485184918996" duration="467000" />
       <workItem from="1485185416113" duration="7398000" />
-      <workItem from="1485198764448" duration="1235000" />
+      <workItem from="1485198764448" duration="1661000" />
+      <workItem from="1485210998757" duration="3869000" />
+      <workItem from="1485216763573" duration="7768000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionado procfile e as dependencias">
       <created>1485166241972</created>
@@ -481,7 +615,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72124000" />
+    <option name="totallyTimeSpent" value="84187000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -497,38 +631,39 @@
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16466118" sideWeight="0.21634616" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15896137" sideWeight="0.78365386" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3046232" sideWeight="0.78365386" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.4977834" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18674698" sideWeight="0.38758707" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18624642" sideWeight="0.39107805" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16466118" sideWeight="0.50641024" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.4977834" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18674698" sideWeight="0.6124129" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36506024" sideWeight="0.60892195" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16466118" sideWeight="0.50641024" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23493975" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23493975" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.4977834" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18624642" sideWeight="0.39107805" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16466118" sideWeight="0.50641024" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.4977834" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24819277" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36506024" sideWeight="0.60892195" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16466118" sideWeight="0.21634616" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16466118" sideWeight="0.78365386" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3046232" sideWeight="0.78365386" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -559,81 +694,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/typings/browser.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/message.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/message.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="64" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/message.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/app.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2505">
-          <caret line="167" column="1" selection-start-line="167" selection-start-column="1" selection-end-line="167" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/login.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -645,13 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/login.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -737,20 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/vendor/systemjs/dist/system.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/vendor/systemjs/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/validacao.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -762,20 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/app.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -800,13 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -822,26 +840,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/app.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="19" column="0" selection-start-line="18" selection-start-column="29" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,6 +851,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="47" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/jquery.min.js" />
+    <entry file="file://$PROJECT_DIR$/assets/app/message.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/message.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/boot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/app.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="108" selection-start-line="37" selection-start-column="108" selection-end-line="37" selection-end-column="108" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/login.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -861,60 +916,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/message.model.ts">
+    <entry file="file://$PROJECT_DIR$/typings/browser/ambient/es6-shim/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state relative-caret-position="-2310">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/message.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/www">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
+        <state relative-caret-position="315">
           <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/message.js">
+    <entry file="file://$PROJECT_DIR$/public/js/teste.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="51" />
+        <state relative-caret-position="450">
+          <caret line="9" column="14512" selection-start-line="9" selection-start-column="14512" selection-end-line="9" selection-end-column="14512" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/user.js">
+    <entry file="file://$PROJECT_DIR$/public/js/vendor/systemjs/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="3" selection-end-line="28" selection-end-column="55" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/vendor/systemjs/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/vendor/systemjs/dist/system.src.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1185">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/vendor/systemjs/dist/system.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/materialize.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19215">
+          <caret line="864" column="44" selection-start-line="864" selection-start-column="44" selection-end-line="864" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/vendor/@angular/forms/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -929,10 +1000,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/login.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/app.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="108" column="29" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="165" column="51" selection-start-line="165" selection-start-column="51" selection-end-line="165" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        <state relative-caret-position="-420">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="54" column="35" selection-start-line="53" selection-start-column="4" selection-end-line="54" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-308">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/app.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
           <folding />
         </state>
       </provider>

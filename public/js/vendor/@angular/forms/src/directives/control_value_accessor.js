@@ -5,12 +5,14 @@
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-import { OpaqueToken } from '@angular/core';
+"use strict";
+var core_1 = require('@angular/core');
 /**
  * Used to provide a {@link ControlValueAccessor} for form controls.
  *
  * See {@link DefaultValueAccessor} for how to implement one.
- * @stable
+ * @experimental
  */
-export var /** @type {?} */ NG_VALUE_ACCESSOR = new OpaqueToken('NgValueAccessor');
+exports.NG_VALUE_ACCESSOR = 
+/*@ts2dart_const*/ new core_1.OpaqueToken('NgValueAccessor');
 //# sourceMappingURL=control_value_accessor.js.map

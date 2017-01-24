@@ -7,3 +7,4 @@ app
 /models/user.js
 !/typings/
 /config/
+!/public/js/app/

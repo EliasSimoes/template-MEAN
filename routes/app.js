@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
-var passport = require('passport');
-var User = require('../app/models/user');
+//var passport = require('passport');
+//var User = require('../app/models/user');
 var Message = require('../models/message');
 
 //path raiz

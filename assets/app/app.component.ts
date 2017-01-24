@@ -5,6 +5,7 @@ import { MessageService } from './message.service';
 
 
 
+
 @Component({
     moduleId: module.id,
     selector: 'my-app',
@@ -62,6 +63,7 @@ export class AppComponent implements OnInit{
     onSubmit(){
 
     }
+
     //
     // onClear(form: NgForm){
     //     this.nome = null;
